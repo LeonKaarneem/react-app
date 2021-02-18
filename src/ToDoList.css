@@ -1,0 +1,70 @@
+.toDoListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    max-width: 165px;
+}
+
+.toDoListMain .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #39603D;
+    color: #FFF;
+    border: 2px solid #39603D;
+    border-radius: 5px;
+}
+
+.toDoListMain .header button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+
+.toDoListMain .theList li {
+    color: #333;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    max-width:220px;
+    word-wrap:break-word;
+    transition: background-color .2s ease-out;
+}
+
+.toDoListMain .theList li:hover {
+    background-color: #A3BCB6;
+    cursor: grab;
+}
+
+.toDoListMain .theList li:active {
+    background-color: #A3BCB6;
+    cursor: grabbing;
+}
+
+ul.theList {
+    padding: 0px;
+}
+
+.toDoListMain .ToDoListContainers {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.itemDelete {
+    float: right;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.DropContainer {
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    width: 240px;
+    padding: 10px;
+}
